@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    height: 100%;
+}
+.bigimg, .smimg1, .smimg2, .smimg3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.bigimg{
+    background-image: url("./../bulding3.jpg");
+    min-height: 100%;
+}
+.smimg1{
+    background-image: url('./../bulding2.jpg');
+    min-height: 400px;
+}
+.smimg2{
+    background-image: url('./../p18.jpg');
+    min-height: 600px;
+}
+.smimg3{
+    background-image: url('./../bulding1.png');
+    min-height: 100%;
+}
+.box1{
+    padding: 50px 80px;
+    background-color:rgb(214, 133, 214);
+}
+.box1 h2{
+    text-align: center;
+}
+
+.box2{
+    padding: 50px 80px;
+    background-color:rgba(174, 223, 142, 0.733);
+}
+.box2 h2{
+    text-align: center;
+}
+
+.box3{
+    padding: 50px 80px;
+    background-color: #ccc;
+}
+.box3 h2{
+    text-align: center;
+}
+.ptext{
+    font-size: 2rem;
+    /* letter-spacing: 5px; */
+    text-transform: uppercase;
+
+}
